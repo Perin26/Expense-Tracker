@@ -1,0 +1,2 @@
+Database : ExpenseTracker
+Table query : create table march(date date,catergory varchar(20), amount float, note varchar(100))
