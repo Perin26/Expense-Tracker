@@ -242,8 +242,8 @@ class ExpenseTracker(User):
             for i,j in self.expense.items():
                 print("---------------------------------------------------")
                 print(f'Expense type : {i}')
-                print(f'Expense amount : {j['amount']}')
-                print(f'Expense note : {j['notes']}')
+                print(f'Expense amount : {j["amount"]}')
+                print(f'Expense note : {j["notes"]}')
         
         else:
             print("------------- No any data to view --------------")
